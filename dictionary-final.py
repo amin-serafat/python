@@ -1,21 +1,29 @@
 me = {
     "name": "mohammad",
     "family": "ordookhani",
-    "age": 24,
     "email": "moh96ordo@gmail.com"
 }
 
-# print(me["email"])
+# print(me)
 
-# isExist = "name" in me
-
-# if "email" in me:
-#     print(me["email"])
-# else:
-#     print("there is no email key in me")
-
-# isNameExist = "mohammad" in me.values()
-
-# print(isNameExist)
+# me.pop("name")
+# me.popitem()
+# me.popitem()
 
 
+second = {
+    "age": 50,
+    "name": "milad"
+}
+
+print(second)
+
+second.update(me)
+
+print(second)
+
+print("------------------------")
+
+second["namek"] = "sara"
+
+print(second)
